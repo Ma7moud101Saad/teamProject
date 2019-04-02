@@ -25,6 +25,50 @@
   <div class="container-flaud">
     <header>
     <div class="row">
+       
+      <div id="myModel" class="model">
+          <div id="bigModel">
+            <div class="topBidMode">
+              
+              <h6>chose your location</h6>
+            </div>
+            <div class="bigContainer">
+              <p>Delivery options and delivery speeds may vary for different locations</p>
+              <button class="sign">sign in to see your Address</button>
+              <div class="divhr1">
+                <hr class="hr1">
+                <span> or enter a US zip code </span>
+                 <hr class="hr2">
+              </div>
+              <div class="textDiv">
+              <input type="text" class="myText">
+              <button class="apply">Apply</button>
+            </div>
+            <div class="divhr2">
+                <hr class="hr1">
+                <span> or </span>
+                 <hr class="hr2">
+              </div>
+              <select name="" id="">
+                <option value="Egypt">Egypr</option>
+              </select>
+            </div>
+
+            <div class="bottomBidMode">
+                <input type="submit" value="Done">
+              </div>
+            </div>
+        <div id="subModel" class="modelContent">
+          <div class="top">
+            <p> chose your location</p>
+          </div>
+           <div class="loader"></div>
+           <div class="bottom">
+              <button class="botBtn">Done</button>
+            </div>
+        </div>
+        
+      </div>
       <div class="col-lg-1 logo">
         <img src="images/logo.png" alt="">
       </div>
@@ -68,15 +112,40 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-1 map" onclick="displayMap()">
+      <div class="col-lg-1 map">
+        <button id="ShowchoseYouLocation" onclick="showChoseL()">
         <div id="mapMe">
         <img src="images/anchor.png" alt="">
         <h3>Dlever to <b>Egypt</b></h3>
       </div>
+    </button>
       </div>
       <div class="col-lg-7 menu">
         <ul>
-          <li class="active" onmouseover="displayFunction()" onmouseout="hide()"><a  href="#">Departments<img src="images/arrow2.png" alt=""> </a></li>
+          <li class="active">
+            <a  href="#">Departments<img src="images/arrow2.png" alt=""> </a>
+            <div class="dropDownDepatments">
+                <ul>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                  </ul>
+                </div></li>
           <li><a href="#">Your Amazon.com</a></li>
           <li><a href="#">Today's Deals</a></li>
           <li><a href="#">Gift Cards</a></li>
@@ -85,8 +154,103 @@
           <li><a href="#">Help</a></li>
         </ul>
       </div>
-      <div class="col-lg-3">
-        <a href="" ></a>
+      <div class="col-lg-3 newMenu">
+          <ul>
+              <li class="language">
+                 <a href=""> <p>EN</p>
+                          <img src="images/language.png" alt="">
+                          <img src="images/arrow2.png" alt=""></a>
+                      </a>
+                <div class="allLanguages">
+                  
+                        <ul>
+                            <li>
+                                <input type="radio" name="gender" value="english"> English
+                            </li>
+                            <li>
+                                <input type="radio" name="gender" value="english"> English
+                            </li>
+                            <li>
+                                <input type="radio" name="gender" value="english"> English
+                            </li>
+                            <li>
+                                <input type="radio" name="gender" value="english"> English
+                            </li>
+                            <li>
+                                <input type="radio" name="gender" value="english"> English
+                            </li>
+                          </ul>
+                     
+                    </div></li>
+
+                    <li class="signIn">
+                        <a href="">
+                            
+                           Sign in
+                           <img  class="arow" src="images/arrow2.png" alt="">
+                             </a>
+                             <div class="wrapper"> <button class="signbtn">sign in</button>
+                              <div class="clear"></div>
+                       <div class="yourlist">
+                          
+                               <ul>
+                                 <li><a href="">your list</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                 </ul>
+                             
+                           </div>
+                           <div class="youracount">
+                          
+                              <ul>
+                                  <li><a href="">your acount</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>
+                                  <li><a href="">link</a></li>                                </ul>
+                            
+                          </div>
+                        </div>
+                        </li>
+                        <li id="order">
+                       <a href=""> Order</a>
+                        </li>
+                        <li>
+                            <img id="shop" src="images/shopCar.png" alt="">
+                        </li>
+
+            </ul>
+    
       </div>
     </div>
   </div>
