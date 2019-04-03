@@ -1,0 +1,123 @@
+{
+  "Dept": {
+  
+    "Categories": {
+      "Category": [
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":3
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":2
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+          "rate":5
+      
+        },
+           {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":3
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":2
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+          "rate":5
+      
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":3
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":2
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+          "rate":5
+      
+        },
+           {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":3
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":2
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+          "rate":5
+      
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":3
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":2
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+          "rate":5
+      
+        },
+           {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":3
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+            "rate":2
+        },
+        {
+        "img":"category/car.jpg",
+          "price": "$22.46 - $33.71",
+          "save":"Save up to 35% on Marpac Sound Machines",
+          "rate":5
+      
+        }
+      ]
+    }
+  }
+}
