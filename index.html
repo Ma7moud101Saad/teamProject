@@ -6,6 +6,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -27,6 +28,7 @@
     <div class="row">
        
       <div id="myModel" class="model">
+        <div class="col-lg-4 offset-4 " >
           <div id="bigModel">
             <div class="topBidMode">
               
@@ -67,14 +69,15 @@
               <button class="botBtn">Done</button>
             </div>
         </div>
-        
       </div>
+    </div>
+    
       <div class="col-lg-1 logo">
         <img src="images/logo.png" alt="">
       </div>
-      <div class="col-lg-7 search">
+      <div class="col-lg-7 offset-1 search">
         <div class="dropDown">
-          <button class="myAll" onclick="Display()">All <img src="images/arrow.png" alt=""> </button>
+          <button class="myAll" onclick="Display()">All <img src="images/arrow.png"alt=""> </button>
           <div class="dropDownList">
               <ul>
                   <li> <a href="#">link</a></li>
@@ -104,7 +107,7 @@
       </div>
       
       <input type="text" >
-      <button class="btnSearch"><img src="images/search.png" alt=""></button>
+      <button class="btnSearch"><img src="images/search.png"  width=20 height=auto class="img-responsive" alt=""></button>
       </div>
       <div class="col-lg-3 why">
         <p>why shop with Amazon? learn More</p>
@@ -158,14 +161,13 @@
           <ul>
               <li class="language">
                  <a href=""> <p>EN</p>
-                          <img src="images/language.png" alt="">
-                          <img src="images/arrow2.png" alt=""></a>
+                          
                       </a>
                 <div class="allLanguages">
                   
                         <ul>
                             <li>
-                                <input type="radio" name="gender" value="english"> English
+                                <input type="radio" name="gender" value="english">  English
                             </li>
                             <li>
                                 <input type="radio" name="gender" value="english"> English
@@ -184,11 +186,7 @@
                     </div></li>
 
                     <li class="signIn">
-                        <a href="">
-                            
-                           Sign in
-                           <img  class="arow" src="images/arrow2.png" alt="">
-                             </a>
+                        <a href="">  Sign  </a>
                              <div class="wrapper"> <button class="signbtn">sign in</button>
                               <div class="clear"></div>
                        <div class="yourlist">
